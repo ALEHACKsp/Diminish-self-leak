@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Console">
+      <UniqueIdentifier>{06220efe-bc69-41ad-878f-083bb656c0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Console\fmt">
+      <UniqueIdentifier>{bbadd751-d316-43ed-ba7b-5ef7ece8ebc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CRC Bypass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Console\fmt\format.cc">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Console\fmt\os.cc">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\Console\Console.h">
+      <Filter>Header Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\chrono.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\color.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\compile.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\core.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\format.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\format-inl.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\locale.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\os.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\ostream.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\posix.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\printf.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\ranges.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

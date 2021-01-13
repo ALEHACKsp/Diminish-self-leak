@@ -1,0 +1,6 @@
+﻿  Building 'Kernel' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  apiserver_km.cpp
+  main.cpp
+  Generating code
+  Finished generating code
+  server_km.vcxproj -> C:\Users\DESKTOP\Downloads\Diminsh.VIP-main\Diminsh.VIP-main\bin\Kernel.sys

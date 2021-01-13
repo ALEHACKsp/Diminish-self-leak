@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Protection">
+      <UniqueIdentifier>{5346e5dc-9bd2-4b4d-819f-81123a0cd6a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protection\Xor">
+      <UniqueIdentifier>{ef9e82d3-0e8a-4893-a64f-e83fec50377d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protection\VMProtect">
+      <UniqueIdentifier>{c06c0940-5081-4353-9f60-3073e9e6f252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protection\BattlEye">
+      <UniqueIdentifier>{1bf77971-ad43-403d-b5d7-e92acb4f8941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protection\BattlEye\Privliges">
+      <UniqueIdentifier>{3d744270-7bfb-46af-a3dc-3cd035b14f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protection\BattlEye\Services">
+      <UniqueIdentifier>{d43a0a5e-a8e5-4ec3-856d-e32b394b27e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protection\Encryption">
+      <UniqueIdentifier>{4c1c7416-cde9-40bd-9474-062f53224e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Console">
+      <UniqueIdentifier>{6180a12f-5597-4a4b-8eda-0417b0712148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Console\fmt">
+      <UniqueIdentifier>{d4523391-33ae-4f62-aaf4-d48155293643}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protection\BattlEye\Privliges\Privliges.cpp">
+      <Filter>Header Files\Protection\BattlEye\Privliges</Filter>
+    </ClCompile>
+    <ClCompile Include="Protection\BattlEye\Services\Services.cpp">
+      <Filter>Header Files\Protection\BattlEye\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Console\fmt\format.cc">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Console\fmt\os.cc">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Protection\BattlEye\Privliges\Privliges.h">
+      <Filter>Header Files\Protection\BattlEye\Privliges</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\BattlEye\Services\Services.h">
+      <Filter>Header Files\Protection\BattlEye\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\VMProtect\VMP.h">
+      <Filter>Header Files\Protection\VMProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection\Xor\StringEncryption.h">
+      <Filter>Header Files\Protection\Xor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\Console.h">
+      <Filter>Header Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\chrono.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\color.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\compile.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\core.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\format.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\format-inl.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\locale.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\os.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\ostream.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\posix.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\printf.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Console\fmt\ranges.h">
+      <Filter>Header Files\Console\fmt</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

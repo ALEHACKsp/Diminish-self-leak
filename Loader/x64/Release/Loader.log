@@ -1,0 +1,21 @@
+﻿  format.cc
+  os.cc
+  Loader.cpp
+C:\Users\DESKTOP\Downloads\Diminsh.VIP-main\Diminsh.VIP-main\Loader\ida.h(91,1): warning C4005: 'LOBYTE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(206): message : see previous definition of 'LOBYTE'
+C:\Users\DESKTOP\Downloads\Diminsh.VIP-main\Diminsh.VIP-main\Loader\ida.h(92,1): warning C4005: 'LOWORD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(204): message : see previous definition of 'LOWORD'
+C:\Users\DESKTOP\Downloads\Diminsh.VIP-main\Diminsh.VIP-main\Loader\ida.h(94,1): warning C4005: 'HIBYTE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(207): message : see previous definition of 'HIBYTE'
+C:\Users\DESKTOP\Downloads\Diminsh.VIP-main\Diminsh.VIP-main\Loader\ida.h(95,1): warning C4005: 'HIWORD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(205): message : see previous definition of 'HIWORD'
+C:\Users\DESKTOP\Downloads\Diminsh.VIP-main\Diminsh.VIP-main\Loader\Loader.cpp(50,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DESKTOP\Downloads\Diminsh.VIP-main\Diminsh.VIP-main\Loader\Loader.cpp(231,11): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'HANDLE'
+C:\Users\DESKTOP\Downloads\Diminsh.VIP-main\Diminsh.VIP-main\Loader\Loader.cpp(231,11): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'HANDLE'
+C:\Users\DESKTOP\Downloads\Diminsh.VIP-main\Diminsh.VIP-main\Loader\Loader.cpp(316,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+C:\Users\DESKTOP\Downloads\Diminsh.VIP-main\Diminsh.VIP-main\Loader\Loader.cpp(317,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+  Privliges.cpp
+  Services.cpp
+C:\Users\DESKTOP\Downloads\Diminsh.VIP-main\Diminsh.VIP-main\Loader\Protection\BattlEye\Services\Services.cpp(99,84): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+Services.obj : warning LNK4006: "bool __cdecl CreateFileFromMemory(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,char const *,unsigned __int64)" (?CreateFileFromMemory@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD_K@Z) already defined in Loader.obj; second definition ignored
+LINK : fatal error LNK1104: cannot open file 'VMProtectSDK64.lib'
